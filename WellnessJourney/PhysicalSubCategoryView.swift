@@ -51,6 +51,22 @@ struct PhysicalSubCategoryView: View {
                 RatingView(rating: $eatingRating)
                 
             }
+            
+            // ????? How do I make the submit a little higher and the button border looks a little funny
+            Spacer()
+            
+            Button("Submit") {
+                /*@START_MENU_TOKEN@*//*@PLACEHOLDER=Action@*/ /*@END_MENU_TOKEN@*/
+            }
+            .padding()
+            .frame(width:100, height:40)
+            .background(.clear) // Make button transparent
+            .border(Color.purple, width: 4)
+            //.background(Color(UIColor(red: 0.5, green: 0, blue: 1, alpha: 1)))
+            .foregroundColor(.purple)
+            .cornerRadius(10)
+            .controlSize(.large)
+            .padding(10)
             Spacer()
         }
         
