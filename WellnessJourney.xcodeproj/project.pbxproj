@@ -16,6 +16,7 @@
 		38A3B5A52CE6C9690082B734 /* SubCategoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38A3B5A42CE6C9690082B734 /* SubCategoryView.swift */; };
 		38A3B5A92CE6D7CC0082B734 /* PhysicalSubCategoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38A3B5A82CE6D7CC0082B734 /* PhysicalSubCategoryView.swift */; };
 		38A3B5AB2CE714240082B734 /* ReflectionTextAreaView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38A3B5AA2CE714240082B734 /* ReflectionTextAreaView.swift */; };
+		38A3B5AD2CE741C90082B734 /* TextAreaView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38A3B5AC2CE741C80082B734 /* TextAreaView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +30,7 @@
 		38A3B5A42CE6C9690082B734 /* SubCategoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubCategoryView.swift; sourceTree = "<group>"; };
 		38A3B5A82CE6D7CC0082B734 /* PhysicalSubCategoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhysicalSubCategoryView.swift; sourceTree = "<group>"; };
 		38A3B5AA2CE714240082B734 /* ReflectionTextAreaView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReflectionTextAreaView.swift; sourceTree = "<group>"; };
+		38A3B5AC2CE741C80082B734 /* TextAreaView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextAreaView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,6 +72,7 @@
 				38A3B5A42CE6C9690082B734 /* SubCategoryView.swift */,
 				38A3B5A82CE6D7CC0082B734 /* PhysicalSubCategoryView.swift */,
 				38A3B5AA2CE714240082B734 /* ReflectionTextAreaView.swift */,
+				38A3B5AC2CE741C80082B734 /* TextAreaView.swift */,
 			);
 			path = WellnessJourney;
 			sourceTree = "<group>";
@@ -158,6 +161,7 @@
 				3879B56F2CE5786B003D70A5 /* WellnessJourneyApp.swift in Sources */,
 				38A3B5AB2CE714240082B734 /* ReflectionTextAreaView.swift in Sources */,
 				38A3B5A52CE6C9690082B734 /* SubCategoryView.swift in Sources */,
+				38A3B5AD2CE741C90082B734 /* TextAreaView.swift in Sources */,
 				38A3B5A92CE6D7CC0082B734 /* PhysicalSubCategoryView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
