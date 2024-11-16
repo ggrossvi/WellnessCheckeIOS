@@ -17,7 +17,7 @@ struct PhysicalSubCategoryView: View {
             Label("Physical",systemImage: "")
                 .frame(width:250, height:40)
                 .background(Color(UIColor(red: 0.5, green: 0, blue: 1, alpha: 1)))
-                .foregroundColor(.white)
+                .foregroundColor(Color.white)
                 .cornerRadius(10)
                 .controlSize(.large)
                 .padding(35.0)

@@ -21,6 +21,7 @@ struct TextAreaView: View {
                 .multilineTextAlignment(.leading) // Allows multiple lines
                 .frame(height: 100) // Adjust height as needed
                     //.font(.headline)
+            
             Button(action: {
                 saveText()
             }, label: {

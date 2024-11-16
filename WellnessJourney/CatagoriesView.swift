@@ -13,6 +13,7 @@ struct CatagoriesView: View {
             Text("What category would \n you like to track?")
                 .padding(40)
                 .bold()
+//                .background(.red)
             
                 
             Button("Physical") {
@@ -75,12 +76,7 @@ struct CatagoriesView: View {
             .controlSize(.large)
             .padding(10)
             
-            
-            
         }
-      
-            
-        
         
     }
 }

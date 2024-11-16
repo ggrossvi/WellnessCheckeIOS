@@ -17,10 +17,17 @@ struct ProgressView: View {
                 .cornerRadius(10)
                 .controlSize(.large)
                 .padding(35.0)
+            
             Image("barchart-purple")
-                //.frame(width: 150.0, height:100)
+                //.frame(width: 140.0, height:100)
+                .resizable()
+                
+                .aspectRatio(contentMode: .fit)
+            Spacer()
         }
+        
     }
+    
 }
 
 struct ProgressView_Previews: PreviewProvider {
