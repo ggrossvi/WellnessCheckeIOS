@@ -53,12 +53,12 @@ struct PhysicalSubCategoryView: View {
             }
             
             // ????? How do I make the submit a little higher and the button border looks a little funny
-            Spacer()
+            .padding(10)
             
             Button("Submit") {
                 /*@START_MENU_TOKEN@*//*@PLACEHOLDER=Action@*/ /*@END_MENU_TOKEN@*/
             }
-            .padding()
+            //.padding()
             .frame(width:100, height:40)
             .background(.clear) // Make button transparent
             .border(Color.purple, width: 4)

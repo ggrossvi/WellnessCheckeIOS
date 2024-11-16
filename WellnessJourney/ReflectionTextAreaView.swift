@@ -22,15 +22,20 @@ struct ReflectionTextAreaView: View {
                 .padding(35.0)
             
             // pull in text area
-            Text("How did you feel today?").bold()
+            Text("How do you feel today?").bold()
+                .padding(20)
                 
-            TextField("Enter your text here", text: $textFieldText)
+            TextField("Enter your text here", text: $textFieldText, axis: .vertical)
                 .padding()
                 .background(Color.purple.opacity(0.2).cornerRadius(10))
                 .foregroundColor(.purple)
-                .multilineTextAlignment(.leading) // Allows multiple lines
+                .lineLimit(5,reservesSpace: true)
+                //.multilineTextAlignment(.leading) // Allows multiple lines
                 .frame(height: 100) // Adjust height as needed
                     //.font(.headline)
+                .padding(20)
+            
+            
             
             Button(action: {
                 saveText()

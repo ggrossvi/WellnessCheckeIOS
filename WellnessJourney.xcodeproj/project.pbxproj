@@ -19,6 +19,8 @@
 		38A3B5AF2CE7C8AD0082B734 /* ProgressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38A3B5AE2CE7C8AD0082B734 /* ProgressView.swift */; };
 		38A3B5B12CE82D6D0082B734 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 38A3B5B02CE82D6D0082B734 /* Launch Screen.storyboard */; };
 		38A3B5B32CE8563B0082B734 /* MoodView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38A3B5B22CE8563B0082B734 /* MoodView.swift */; };
+		38E00BE52CE892300062D050 /* JournalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38E00BE42CE892300062D050 /* JournalView.swift */; };
+		38E00BE72CE8A48E0062D050 /* MoodBooster.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38E00BE62CE8A48E0062D050 /* MoodBooster.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,6 +37,8 @@
 		38A3B5AE2CE7C8AD0082B734 /* ProgressView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressView.swift; sourceTree = "<group>"; };
 		38A3B5B02CE82D6D0082B734 /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
 		38A3B5B22CE8563B0082B734 /* MoodView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoodView.swift; sourceTree = "<group>"; };
+		38E00BE42CE892300062D050 /* JournalView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JournalView.swift; sourceTree = "<group>"; };
+		38E00BE62CE8A48E0062D050 /* MoodBooster.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoodBooster.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,8 +76,10 @@
 				38A3B5A02CE6A35A0082B734 /* CatagoriesView.swift */,
 				38A3B5A82CE6D7CC0082B734 /* PhysicalSubCategoryView.swift */,
 				38A3B5AA2CE714240082B734 /* ReflectionTextAreaView.swift */,
-				38A3B5AE2CE7C8AD0082B734 /* ProgressView.swift */,
 				38A3B5B22CE8563B0082B734 /* MoodView.swift */,
+				38A3B5AE2CE7C8AD0082B734 /* ProgressView.swift */,
+				38E00BE42CE892300062D050 /* JournalView.swift */,
+				38E00BE62CE8A48E0062D050 /* MoodBooster.swift */,
 				3879B56E2CE5786B003D70A5 /* WellnessJourneyApp.swift */,
 				3879B5722CE5786D003D70A5 /* Assets.xcassets */,
 				3879B5742CE5786D003D70A5 /* Preview Content */,
@@ -163,11 +169,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				38A3B5A12CE6A35A0082B734 /* CatagoriesView.swift in Sources */,
+				38E00BE72CE8A48E0062D050 /* MoodBooster.swift in Sources */,
 				3879B57D2CE578A9003D70A5 /* RatingView.swift in Sources */,
 				3879B5712CE5786B003D70A5 /* ContentView.swift in Sources */,
 				3879B56F2CE5786B003D70A5 /* WellnessJourneyApp.swift in Sources */,
 				38A3B5AB2CE714240082B734 /* ReflectionTextAreaView.swift in Sources */,
 				38A3B5AD2CE741C90082B734 /* TextAreaView.swift in Sources */,
+				38E00BE52CE892300062D050 /* JournalView.swift in Sources */,
 				38A3B5A92CE6D7CC0082B734 /* PhysicalSubCategoryView.swift in Sources */,
 				38A3B5B32CE8563B0082B734 /* MoodView.swift in Sources */,
 				38A3B5AF2CE7C8AD0082B734 /* ProgressView.swift in Sources */,

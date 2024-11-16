@@ -75,6 +75,7 @@ struct CatagoriesView: View {
             .cornerRadius(10)
             .controlSize(.large)
             .padding(10)
+            Spacer()
             
         }
         

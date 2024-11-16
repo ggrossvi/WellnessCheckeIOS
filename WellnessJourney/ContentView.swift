@@ -22,8 +22,6 @@ struct ContentView: View {
         }
         //.background(Color(UIColor(red: 0.5, green: 0, blue: 1, alpha: 1))).edgesIgnoringSafeArea(.all)
         //.padding(0.0)
-        
-        
     }
 }
 
