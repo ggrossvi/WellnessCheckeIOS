@@ -9,19 +9,20 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        
-        VStack() {
-            Image("Welcome_to_Wellness_2")
-                .resizable()
-                .aspectRatio(contentMode: .fit)
-            
+        NavigationStack{
+            VStack() {
+                Image("Welcome_to_Wellness_2")
+                    .resizable()
+                    .aspectRatio(contentMode: .fit)
+                
                 //.imageScale(.large)
                 //.foregroundColor(.blue)
                 //.background(Color("DFEAFE72"))
-            //Text("Hello, world!")
+                //Text("Hello, world!")
+            }
+            //.background(Color(UIColor(red: 0.5, green: 0, blue: 1, alpha: 1))).edgesIgnoringSafeArea(.all)
+            //.padding(0.0)
         }
-        //.background(Color(UIColor(red: 0.5, green: 0, blue: 1, alpha: 1))).edgesIgnoringSafeArea(.all)
-        //.padding(0.0)
     }
 }
 

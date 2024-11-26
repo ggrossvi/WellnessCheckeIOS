@@ -12,7 +12,7 @@
 		3879B5732CE5786D003D70A5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3879B5722CE5786D003D70A5 /* Assets.xcassets */; };
 		3879B5762CE5786D003D70A5 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3879B5752CE5786D003D70A5 /* Preview Assets.xcassets */; };
 		3879B57D2CE578A9003D70A5 /* RatingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3879B57C2CE578A9003D70A5 /* RatingView.swift */; };
-		38A3B5A12CE6A35A0082B734 /* CatagoriesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38A3B5A02CE6A35A0082B734 /* CatagoriesView.swift */; };
+		38A3B5A12CE6A35A0082B734 /* CategoriesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38A3B5A02CE6A35A0082B734 /* CategoriesView.swift */; };
 		38A3B5A92CE6D7CC0082B734 /* PhysicalSubCategoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38A3B5A82CE6D7CC0082B734 /* PhysicalSubCategoryView.swift */; };
 		38A3B5AB2CE714240082B734 /* ReflectionTextAreaView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38A3B5AA2CE714240082B734 /* ReflectionTextAreaView.swift */; };
 		38A3B5AD2CE741C90082B734 /* TextAreaView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38A3B5AC2CE741C80082B734 /* TextAreaView.swift */; };
@@ -24,13 +24,14 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		38091B492CEC280900D6F303 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		3879B56B2CE5786B003D70A5 /* WellnessJourney.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WellnessJourney.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3879B56E2CE5786B003D70A5 /* WellnessJourneyApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WellnessJourneyApp.swift; sourceTree = "<group>"; };
 		3879B5702CE5786B003D70A5 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		3879B5722CE5786D003D70A5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3879B5752CE5786D003D70A5 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		3879B57C2CE578A9003D70A5 /* RatingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RatingView.swift; sourceTree = "<group>"; };
-		38A3B5A02CE6A35A0082B734 /* CatagoriesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatagoriesView.swift; sourceTree = "<group>"; };
+		38A3B5A02CE6A35A0082B734 /* CategoriesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoriesView.swift; sourceTree = "<group>"; };
 		38A3B5A82CE6D7CC0082B734 /* PhysicalSubCategoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhysicalSubCategoryView.swift; sourceTree = "<group>"; };
 		38A3B5AA2CE714240082B734 /* ReflectionTextAreaView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReflectionTextAreaView.swift; sourceTree = "<group>"; };
 		38A3B5AC2CE741C80082B734 /* TextAreaView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextAreaView.swift; sourceTree = "<group>"; };
@@ -72,12 +73,13 @@
 		3879B56D2CE5786B003D70A5 /* WellnessJourney */ = {
 			isa = PBXGroup;
 			children = (
+				38091B492CEC280900D6F303 /* Info.plist */,
 				3879B5702CE5786B003D70A5 /* ContentView.swift */,
-				38A3B5A02CE6A35A0082B734 /* CatagoriesView.swift */,
+				38A3B5A02CE6A35A0082B734 /* CategoriesView.swift */,
 				38A3B5A82CE6D7CC0082B734 /* PhysicalSubCategoryView.swift */,
 				38A3B5AA2CE714240082B734 /* ReflectionTextAreaView.swift */,
-				38A3B5B22CE8563B0082B734 /* MoodView.swift */,
 				38A3B5AE2CE7C8AD0082B734 /* ProgressView.swift */,
+				38A3B5B22CE8563B0082B734 /* MoodView.swift */,
 				38E00BE42CE892300062D050 /* JournalView.swift */,
 				38E00BE62CE8A48E0062D050 /* MoodBooster.swift */,
 				3879B56E2CE5786B003D70A5 /* WellnessJourneyApp.swift */,
@@ -168,7 +170,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				38A3B5A12CE6A35A0082B734 /* CatagoriesView.swift in Sources */,
+				38A3B5A12CE6A35A0082B734 /* CategoriesView.swift in Sources */,
 				38E00BE72CE8A48E0062D050 /* MoodBooster.swift in Sources */,
 				3879B57D2CE578A9003D70A5 /* RatingView.swift in Sources */,
 				3879B5712CE5786B003D70A5 /* ContentView.swift in Sources */,
@@ -309,10 +311,12 @@
 				DEVELOPMENT_ASSET_PATHS = "\"WellnessJourney/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = WellnessJourney/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=*]" = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen.storyboard";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -338,9 +342,11 @@
 				DEVELOPMENT_ASSET_PATHS = "\"WellnessJourney/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = WellnessJourney/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen.storyboard";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (

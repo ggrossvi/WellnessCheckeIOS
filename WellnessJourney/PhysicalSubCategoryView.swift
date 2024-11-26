@@ -11,8 +11,10 @@ struct PhysicalSubCategoryView: View {
     @State private var sleepRating: Int = 0  // Add state for binding
     @State private var activityRating: Int = 0  // Add state for binding
     @State private var eatingRating: Int = 0  // Add state for binding
+    @State private var showReflection = false
     
     var body: some View {
+        
         VStack{
             Label("Physical",systemImage: "")
                 .frame(width:250, height:40)
@@ -56,7 +58,7 @@ struct PhysicalSubCategoryView: View {
             .padding(10)
             
             Button("Submit") {
-                /*@START_MENU_TOKEN@*//*@PLACEHOLDER=Action@*/ /*@END_MENU_TOKEN@*/
+                showReflection = true
             }
             //.padding()
             .frame(width:100, height:40)
@@ -68,6 +70,8 @@ struct PhysicalSubCategoryView: View {
             .controlSize(.large)
             .padding(10)
             Spacer()
+        }.navigationDestination(isPresented: $showReflection) {
+            ReflectionTextAreaView()
         }
         
     }
