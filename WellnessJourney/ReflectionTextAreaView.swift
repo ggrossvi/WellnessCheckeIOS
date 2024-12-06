@@ -4,12 +4,15 @@
 //
 //  Created by Gloria Villa on 11/14/24.
 //
+// ** might want to rename file to checkin
 
 import SwiftUI
 
 struct ReflectionTextAreaView: View {
     @State private var textFieldText: String = "" // State variable to store text
     @State var dataArray: [String] = []
+    
+    @State private var showMood = false
     
     var body: some View {
         VStack {
@@ -36,11 +39,13 @@ struct ReflectionTextAreaView: View {
                 .padding(20)
             
             
-            
+      // ???? can you perform multiple actions
             Button(action: {
-                saveText()
+                //saveText()
+                showMood = true
             }, label: {
-                Text("Save".uppercased())
+                Text("Next".uppercased())
+                
 //                    .padding()
 //                    .frame(maxWidth: .infinity)
 //                    .background(Color.blue.cornerRadius(10))
@@ -64,6 +69,8 @@ struct ReflectionTextAreaView: View {
             }
             
             Spacer()
+        }.navigationDestination(isPresented: $showMood) {
+            MoodView()
         }
         .padding()
         // ?????? Not sure why this isn't showing up I don't need it but not sure why it is not showing up

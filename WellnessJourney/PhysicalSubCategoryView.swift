@@ -57,7 +57,7 @@ struct PhysicalSubCategoryView: View {
             // ????? How do I make the submit a little higher and the button border looks a little funny
             .padding(10)
             
-            Button("Submit") {
+            Button("Next") {
                 showReflection = true
             }
             //.padding()
